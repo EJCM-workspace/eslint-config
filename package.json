@@ -1,6 +1,6 @@
 {
   "name": "@brunopavese/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "author": "brunopavese",
   "description": "ESLint configs for my React e Node projects with TypeScript",
   "main": "index.js",
