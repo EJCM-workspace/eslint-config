@@ -25,15 +25,14 @@ module.exports = {
     '@typescript-eslint'
   ],
   rules: {
-    'prettier/prettier': [
-      'error', {
-        printWidth: 80,
-        tabWidth: 2,
-        singleQuote: true,
-        trailingComma: 'all',
-        arrowParens: 'always',
-        semi: false,
-        endOfLine: 'auto',
+    'prettier/prettier': ['error', {
+        'printWidth': 80,
+        'tabWidth': 2,
+        'singleQuote': true,
+        'trailingComma': 'all',
+        'arrowParens': 'always',
+        'semi': false,
+        'endOfLine': 'auto',
       },
     ],
     'react-hooks/rules-of-hooks': 'warn',
@@ -42,9 +41,7 @@ module.exports = {
     'react/prop-types': 'off',
     'react/no-unescaped-entities': 'off',
     'react/display-name': 'off',
-    'import-helpers/order-imports': [
-      'warn',
-      {
+    'import-helpers/order-imports': ['warn', {
         newlinesBetween: 'always',
         groups: [
           '/use client/',
@@ -61,9 +58,7 @@ module.exports = {
         },
       },
     ],
-    'jsx-a11y/alt-text': [
-      'warn',
-      {
+    'jsx-a11y/alt-text': ['warn', {
         elements: ['img'],
         img: ['Image'],
       },

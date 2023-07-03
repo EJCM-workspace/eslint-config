@@ -1,11 +1,14 @@
 {
   "name": "@brunopavese/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "brunopavese",
   "description": "ESLint configs for my React e Node projects with TypeScript",
   "main": "index.js",
   "private": false,
   "license": "MIT",
+  "repository": {
+    "url": "brunopavese/eslint-config-brunopavese"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.61.0",
     "@typescript-eslint/parser": "^5.61.0",
