@@ -13,13 +13,32 @@
 ## Setup
 
 1. Instale as dependências
+
 ```
-npm i -D eslint @/eslint-config
+npm i -D eslint @ejcm/eslint-config
 ```
 
 2. Crie um arquivo `.eslintrc.json` estendendo a configuração:
+
 ```
 {
-  "extends": "@/eslint-config/react"
+  "extends": "@ejcm/eslint-config/react"  //Para projetos React.js sem Framework
+  "extends": "@ejcm/eslint-config/next"   //Para projetos Next.js
+}
+```
+
+3. Se for usar o Visual Studio Code como IDE, adicione essas configurações no seu arquivo `settings.json` da IDE:
+
+```
+{
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.addMissingImports": true,
+    "source.organizeImports": true
+  } 
+  "eslint.enable": true,
 }
 ```
