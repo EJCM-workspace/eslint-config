@@ -1,18 +1,19 @@
 {
-  "name": "@brunopavese/eslint-config",
-  "version": "1.0.3",
+  "name": "@ejcm/eslint-config",
+  "version": "1.0.0",
   "author": "brunopavese",
-  "description": "ESLint configs for my React e Node projects with TypeScript",
+  "description": "ESLint configs for EJCM's React and Node projects with TypeScript",
   "main": "index.js",
   "private": false,
   "license": "MIT",
   "repository": {
-    "url": "brunopavese/eslint-config-brunopavese"
+    "url": "EJCM-workspace/eslint-config.git"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.61.0",
     "@typescript-eslint/parser": "^5.61.0",
     "eslint": "^8.44.0",
+    "eslint-config-next": "^13.5.4",
     "eslint-config-prettier": "^8.8.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.27.5",

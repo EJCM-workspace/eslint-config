@@ -1,24 +1,25 @@
-# My ESLint config
+# Pré configurações do ESLint para os projetos da EJCM
 
-## Whats included?
+## O que inclui?
 
-- Standard config base;
+- Configuração Standard do ESLint;
 - React plugin;
+- Next plugin;
 - React Hooks plugin;
 - JSX a11y plugin;
 - Prettier;
-- Import Helpers to Next.js projects
+- Import Helpers para projetos Next.js
 
 ## Setup
 
-1. Install the dependencies
+1. Instale as dependências
 ```
-npm i -D eslint @brunopavese/eslint-config
+npm i -D eslint @/eslint-config
 ```
 
-2. Create a `.eslintrc.json` file extending the config:
+2. Crie um arquivo `.eslintrc.json` estendendo a configuração:
 ```
 {
-  "extends": "@brunopavese/eslint-config/react"
+  "extends": "@/eslint-config/react"
 }
 ```
