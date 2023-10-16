@@ -35,9 +35,8 @@ npm i -D eslint @ejcm/eslint-config
   "editor.tabSize": 2,
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll": true,
-    "source.addMissingImports": true,
-    "source.organizeImports": true
+    "source.fixAll.eslint": true,
+    "source.addMissingImports": true
   } 
   "eslint.enable": true,
 }
