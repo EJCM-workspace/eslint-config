@@ -1,6 +1,6 @@
 {
   "name": "@ejcm/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "brunopavese",
   "description": "ESLint configs for EJCM's React and Node projects with TypeScript",
   "main": "index.js",
